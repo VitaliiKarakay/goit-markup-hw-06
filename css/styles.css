@@ -64,10 +64,6 @@ header nav a:first-child {
     font-family: 'Raleway', sans-serif;
 }
 
-.first-section {
-
-}
-
 .section-title {
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -84,7 +80,8 @@ header nav a:first-child {
     background-color: #404BBF;
 }
 
-.service-title {
+.service-title,
+.portfolio-section .service-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -92,7 +89,8 @@ header nav a:first-child {
     color: #2e2f42;
 }
 
-.service-description {
+.service-description,
+.portfolio-section .service-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -231,21 +229,6 @@ nav a:first-child span:last-child {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-
-.portfolio-section .service-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.portfolio-section .service-description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 section:first-of-type {
