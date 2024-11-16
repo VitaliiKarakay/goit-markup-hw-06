@@ -8,6 +8,16 @@ body {
     line-height: 1.5;
 }
 
+header address .contact-info {
+    display: flex;
+    gap: 40px;
+    margin-right: 60px;
+}
+
+header address .contact-info a {
+    font-style: normal;
+}
+
 header nav a:first-child {
     font-family: 'Raleway', sans-serif;
 }
