@@ -11,14 +11,18 @@ header .logo {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-header .logo .logo-text {
     color: #2e2f42;
 }
 
-header .nav-link {
+.logo-text {
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+header .nav-link a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
