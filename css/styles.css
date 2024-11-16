@@ -226,6 +226,28 @@ nav a:first-child span:last-child {
     margin: 0;
 }
 
+.portfolio-section .section-title {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-section .service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-section .service-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 section:first-of-type {
     background-color: #2E2F42;
     color: #FFFFFF;
@@ -278,6 +300,13 @@ section:first-of-type button {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 0 100px;
+}
+
+.team-section .section-title {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 #team li {
@@ -338,4 +367,20 @@ footer p {
     max-width: 600px;
     line-height: 1.5;
     text-align: left;
+}
+
+.footer .logo {
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer .logo-studio {
+    color: #f4f4fd;
+}
+
+.footer .footer-description {
+    color: var(--color, #F4F4FD);
+    letter-spacing: 0.02em;
 }
