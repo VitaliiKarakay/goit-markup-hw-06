@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+header nav a:first-child {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #0284d0;
+}
+
+nav a:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+nav a:first-child span {
+    color: #0284d0;
+}
+
+nav a:first-child span:last-child {
+    color: #212121;
+}
+
+#portfolio {
+    padding: 60px 40px;
+    text-align: left;
+}
+
+#portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#portfolio ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+#portfolio li {
+    width: 370px;
+    background-color: #FFFFFF;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#portfolio p {
+    font-size: 16px;
+    color: #555555;
+}
+
+#portfolio li .content {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
+    padding: 30px 0;
+    margin-top: -10px;
+}
+
+#portfolio li h3, #portfolio li p {
+    border: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+section:first-of-type {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    padding: 200px 20px;
+    text-align: center;
+}
+
+section:first-of-type h1 {
+    font-size: 56px;
+    line-height: 60px;
+}
+
+section:first-of-type button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    line-height: 24px;
+}
+
+#services {
+    padding: 100px 40px;
+}
+
+#services ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#services li {
+    padding: 20px;
+}
+
+#team {
+    background-color: #F4F4FD;
+    padding: 100px 0;
+}
+
+#team h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+#team ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 100px;
+}
+
+#team li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
+#team li img {
+    margin-bottom: 32px;
+    width: 100%;
+    height: auto;
+}
+
+#team li h3, #team li p {
+    text-align: center;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0;
+}
+
+#team li h3 {
+    margin-bottom: 0;
+}
+
+#team li p {
+    margin-bottom: 32px;
+}
+
+footer {
+    background: #2E2F42;
+    color: #FFFFFF;
+    padding: 100px 100px;
+    text-align: left;
+}
+
+footer a {
+    font-family: 'Raleway', sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    align-items: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer a span:first-child {
+    color: #0284d0;
+}
+
+footer a span:last-child {
+    color: #FFFFFF;
+}
+
+footer p {
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: left;
+}
