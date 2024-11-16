@@ -64,6 +64,41 @@ header nav a:first-child {
     font-family: 'Raleway', sans-serif;
 }
 
+.first-section {
+
+}
+
+.section-title {
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.order-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.service-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
