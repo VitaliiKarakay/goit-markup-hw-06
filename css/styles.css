@@ -16,10 +16,12 @@ header .logo {
 
 .logo-text {
   color: #4d5ae5;
+  font-size: 18px;
 }
 
 .logo-studio {
   color: #2e2f42;
+  font-size: 18px;
 }
 
 header .nav-link a {
