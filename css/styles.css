@@ -267,15 +267,12 @@ section:first-of-type button {
 
 #team li img {
     margin-bottom: 32px;
-    width: 100%;
-    height: auto;
 }
 
 #team li h3, #team li p {
     text-align: center;
     margin: 0;
     background-color: #ffffff;
-    width: 100%;
 }
 
 #team li h3 {
