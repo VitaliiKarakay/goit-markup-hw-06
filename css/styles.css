@@ -801,3 +801,33 @@ border-radius: 2px;
 .modal-button-send:focus {
   background-color: #404bbf;
 }
+
+/* Media Queries for Responsive Design */
+@media (min-width: 320px) {
+  body {
+    padding: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 32px;
+  }
+}
+
+/* Utility Classes */
+.is-hidden {
+  display: none !important;
+}
+
+.is-open {
+  display: block !important;
+}
