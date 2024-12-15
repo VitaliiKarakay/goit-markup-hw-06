@@ -1,23 +1,14 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const openModalButtons = document.querySelectorAll('[data-modal-open]');
-  const closeModalButtons = document.querySelectorAll('[data-modal-close]');
-  const modal = document.querySelector('[data-modal]');
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-modal-open]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
+  };
 
-  openModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      modal.classList.add('is-open');
-    });
-  });
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  closeModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      modal.classList.remove('is-open');
-    });
-  });
-
-  modal.addEventListener('click', (event) => {
-    if (event.target === modal) {
-      modal.classList.remove('is-open');
-    }
-  });
-});
+  function toggleModal() {
+    refs.modal.classList.toggle("is-open");
+  }
+})();
